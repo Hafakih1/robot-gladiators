@@ -9,6 +9,8 @@ var enemyName = "Roborto";
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+//fight function
+
 var fight = function() {
 
     // Alert players that they are starting the round
@@ -75,7 +77,7 @@ var fight = function() {
     } else {
         window.alert(playerName + " still has " + playerHealth + " health left.");
     }
-    
+
     // if player choses to skip
     } else if (promptFight === "skip" || promptFight === "SKIP") {
     // confirm player wants to skip
@@ -97,5 +99,6 @@ var fight = function() {
 
   };
 
+// run fight function to start game
 fight();
 
